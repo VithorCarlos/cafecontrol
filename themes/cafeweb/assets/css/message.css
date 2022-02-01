@@ -1,0 +1,31 @@
+.message {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    -webkit-border-radius: var(--radius-medium);
+    -moz-border-radius: var(--radius-medium);
+    border-radius: var(--radius-medium);
+    border: 1px solid #cccccc;
+    font-weight: var(--weight-bold);
+}
+
+.message.success {
+    color: var(--color-green);
+    border-color: var(--color-green);
+}
+
+.message.info {
+    color: var(--color-blue);
+    border-color: var(--color-blue);
+}
+
+.message.warning {
+    color: var(--color-yellow);
+    border-color: var(--color-yellow);
+}
+
+.message.error {
+    color: var(--color-red);
+    border-color: var(--color-red);
+}
